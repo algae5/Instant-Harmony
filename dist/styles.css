@@ -1,0 +1,116 @@
+body {
+  background-color: black;
+  color:white;
+}
+
+.generate {
+  display: grid !important;
+  justify-content: center !important;
+  padding-bottom: 5%;
+}
+
+.generator {
+  background-color: #190061;
+  border-color: #1b006b;
+}
+
+.generator:hover {
+  background-color: #240090;
+  border-color: #27009c;
+}
+
+.generator:active {
+  background-color: #3500D3;
+  border-color: #3700dd;
+  outline: none;
+  border: none;
+}
+
+.generator:focus {
+  background-color: #3500D3;
+  border-color: #3700dd;
+}
+
+.btn:focus {
+  border-color: #3500D3;
+  outline: none;
+}
+
+.MusicPlayer {
+  display: grid !important;
+  justify-content: center !important;
+  grid-template-areas:
+  'progress'
+  'play stop' !important;
+  width: 100% !important;
+  /* border-right: 0 !important;
+  border-left: 0 !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important; */
+}
+
+.SelectKey {
+  margin-top: 4%;
+  display: grid !important;
+  justify-content: center !important;
+  color: white;
+}
+
+#keySelect {
+  background-color: #240090;
+  color: white;
+}
+
+.progress {
+  width: 600% !important;
+  grid-area: progress !important;
+  border-top: 6% !important;
+  height: 33% !important;
+  justify-self: center !important;
+  background-color: #1d0075 !important;
+  /* padding-bottom: 8% !important; */
+}
+.progress-bar {
+  padding-top: 1% !important;
+  text-align: center !important;
+  font-size: medium !important;
+  color:white !important;
+  background-color: #3900e4 !important;
+  padding-bottom: 12% !important;
+}
+
+.Play {
+  margin-top: 60% !important;
+  margin-right: 150% !important;
+  grid-area: play !important;
+  justify-self: center !important;
+}
+
+.Stop {
+  margin-top: 60% !important;
+  margin-left: 150% !important;
+  grid-area: stop !important;
+  justify-self: center !important;
+}
+
+.Save {
+  overflow: auto;
+  margin-top: 18%;
+  display: grid !important;
+  justify-content: center !important;
+}
+
+.HarmonicSequence {
+  font-size: 700%;
+  background-color: #282828;
+  color: white;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 35%;
+}
